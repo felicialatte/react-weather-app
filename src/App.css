@@ -1,38 +1,104 @@
-.App {
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  opacity: 10%;
+  color: #f9f7fe;
+  margin: 30px 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 38px;
+}
+
+p {
+  margin-top: -10px;
+  line-height: 1.5;
+  color: rgb(76, 75, 75, 0.5);
+}
+
+li {
+  text-decoration: none;
+}
+
+strong {
+  color: #f65282;
+}
+
+a {
+  color: #885df1;
+}
+
+footer {
   text-align: center;
+  margin-top: 40px;
+  font-size: 15px;
+  opacity: 90%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-app {
+  background: white;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: rgba(65, 50, 70, 0.07) 0 30px 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.enter-city {
+  background: #f9f7fe;
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search-button {
+  background: #885df1;
   color: white;
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  margin-left: 10px;
+  width: 16%;
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+div.current-weather {
+  margin-bottom: -100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.temperature-now {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  top: -130px;
+  font-size: 82px;
+  font-weight: bold;
+}
+
+span.emoji {
+  position: relative;
+  top: 30px;
+  font-size: 40px;
+}
+
+span.celcius {
+  position: relative;
+  top: 10px;
+  font-size: 28px;
+  font-weight: normal;
 }
