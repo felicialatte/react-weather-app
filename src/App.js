@@ -47,8 +47,8 @@ function App() {
             href="https://www.shecodes.io/graduates/137438-felicia-audrey"
             target="_blank" rel="noopener noreferrer"
             >Felicia Audrey {" "}</a>
-          and is <a href="#" target="_blank" rel="noopener noreferrer"> on GitHub</a> and {" "}
-          <a href="#" target="_blank" rel="noopener noreferrer">hosted on Netlify</a>
+          and is <a href="https://github.com/felicialatte" target="_blank" rel="noopener noreferrer"> on GitHub</a> and {" "}
+          <a href="https://react-cuaca-weather-app.netlify.app/" target="_blank" rel="noopener noreferrer">hosted on Netlify</a>
         </p>
       </footer>
     </div>
